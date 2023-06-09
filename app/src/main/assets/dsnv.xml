@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dsnv>
+    <nv>
+        <msnv>1</msnv>
+        <ten>Nguyễn Văn An</ten>
+        <sdt>0339820592</sdt>
+        <chucvu>TP</chucvu>
+    </nv>
+    <nv>
+        <msnv>2</msnv>
+        <ten>Trần Hùng</ten>
+        <sdt>098763492</sdt>
+        <chucvu>GĐ</chucvu>
+    </nv>
+    <nv >
+        <msnv>3</msnv>
+        <ten>Đỗ Hậu</ten>
+        <sdt>0973820592</sdt>
+        <chucvu>NVSX</chucvu>
+    </nv>
+</dsnv>
