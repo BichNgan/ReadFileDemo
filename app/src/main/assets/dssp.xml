@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dssp>
+    <sp>
+        <msp>Sp01</msp>
+        <tensp>Bánh ngọt</tensp>
+        <dgia>10</dgia>
+    </sp>
+    <sp>
+        <msp>Sp02</msp>
+        <tensp>Cà phê</tensp>
+        <dgia>12</dgia>
+    </sp>
+    <sp>
+        <msp>Sp03</msp>
+        <tensp>Nước khoáng</tensp>
+        <dgia>8</dgia>
+    </sp>
+    <sp>
+        <msp>Sp03</msp>
+        <tensp>Nước ngọt</tensp>
+        <dgia>15</dgia>
+    </sp>
+</dssp>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dssv>
+    <sv>
+        <anh>R.drawable.sv1.jgp</anh>
+        <mssv>sv01</mssv>
+        <hten> Trần Hùng</hten>
+        <nsinh>2000</nsinh>
+    </sv>
+    <sv>
+        <mssv>sv02</mssv>
+        <hten> Lê Hân</hten>
+        <nsinh>2003</nsinh>
+    </sv>
+    <sv>
+        <mssv>sv03</mssv>
+        <hten> Nguyễn Biểu</hten>
+        <nsinh>2002</nsinh>
+    </sv>
+    <sv>
+        <mssv>sv04</mssv>
+        <hten> Đỗ Hoà</hten>
+        <nsinh>2001</nsinh>
+    </sv>
+</dssv>
