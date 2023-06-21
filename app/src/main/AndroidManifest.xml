@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReadFileDemo"
         tools:targetApi="31">
+        <activity
+            android:name=".ReadJson"
+            android:exported="false" />
         <activity
             android:name=".ReadXMLFile"
             android:exported="false" />
@@ -28,7 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

@@ -90,7 +90,7 @@ public class ReadXMLFile extends AppCompatActivity {
         ArrayList<SP> arrayListSP = new ArrayList<>();
 
         //InputStream inputStream = getResources().getAssets().open(fileName);
-        InputStream inputStream=openFileInput("dssp.xml")
+        InputStream inputStream=openFileInput("dssp.xml");
 
 
 
