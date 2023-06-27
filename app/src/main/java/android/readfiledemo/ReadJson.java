@@ -24,7 +24,8 @@ public class ReadJson extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_read_json);
-
+        addControls();
+        addEvent();
     }
     public void addControls()
     {
@@ -37,22 +38,31 @@ public class ReadJson extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    arrayListNhanVien = readDSSNJson("dsnvjs");
+                    arrayListNhanVien = readDSSNJson("dsnvjs.json");
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 } catch (JSONException e) {
                     throw new RuntimeException(e);
                 }
+                //Lấy các thông tin trong arrayList đưa lên TView
+                String kq="";
+                for (NhanVien nv:arrayListNhanVien ) {
+                    kq=kq + nv.toString() + "\n";
+                }
+                tvKq.setText(kq);
             }
         });
     }
-
     public ArrayList<NhanVien> readDSSNJson(String filename) throws IOException, JSONException {
         ArrayList<NhanVien> arrayListNV=new ArrayList<>();
         //Đọc file đưa nội dung vào String
         InputStream inputStream=getResources().getAssets().open(filename);
         int size = inputStream.available();
         byte[]data=new byte[size];
+
+        inputStream.read(data);
+        inputStream.close();
+
         String st = new String(data,"UTF-8");
         //Tách các thông tin trong String vừa đọc lên đưa vào ds các đối tượng
         JSONObject jsonObject = new JSONObject(st);
@@ -60,7 +70,7 @@ public class ReadJson extends AppCompatActivity {
         for (int i=0;i<jsonArray.length();i++ ) {
             JSONObject nv = jsonArray.getJSONObject(i);
             String ten = nv.getString("ten");
-            int ns = nv.getInt("ns");
+            int ns = Integer.parseInt(nv.getString("ns"));
             NhanVien nhanVien = new NhanVien(ten,ns);
             arrayListNV.add(nhanVien);
         }

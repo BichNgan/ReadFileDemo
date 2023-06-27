@@ -1,12 +1,12 @@
   {"dsnv":
-    [
+  [
       {
         "ten":"Nguyễn Văn An",
-        "ns":1982
+        "ns":"1982"
       },
       {
         "ten":"Nguyễn Văn Bo",
-        "ns":1985
+        "ns":"1985"
       }
     ]    
   }  

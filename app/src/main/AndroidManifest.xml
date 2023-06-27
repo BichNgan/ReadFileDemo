@@ -16,13 +16,16 @@
             android:name=".ReadJson"
             android:exported="false" />
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ReadXMLFile"
             android:exported="false" />
         <activity
             android:name=".ReadTxtFile"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ReadJsonDSSV"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

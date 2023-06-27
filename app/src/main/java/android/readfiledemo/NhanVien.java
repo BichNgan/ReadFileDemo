@@ -29,4 +29,9 @@ public class NhanVien {
     public void setNs(int ns) {
         this.ns = ns;
     }
+    public String toString()
+    {
+        return ten + " -- " + String.valueOf(ns);
+    }
+
 }
