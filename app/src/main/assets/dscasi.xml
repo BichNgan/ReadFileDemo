@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dscs>
+    <cs>
+        <hten>Taylor Swift</hten>
+        <qgia>USA</qgia>
+        <loai>country</loai>
+    </cs>
+    <cs>
+        <hten>Mỹ Tâm</hten>
+        <qgia>VN</qgia>
+        <loai>Pop</loai>
+    </cs>
+    <cs>
+        <hten>Enrichque</hten>
+        <qgia>TBN</qgia>
+        <loai>Rock</loai>
+    </cs>
+</dscs>

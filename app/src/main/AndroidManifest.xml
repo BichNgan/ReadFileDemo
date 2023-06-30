@@ -13,19 +13,25 @@
         android:theme="@style/Theme.ReadFileDemo"
         tools:targetApi="31">
         <activity
+            android:name=".ReadXmlCasi"
+            android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name=".ReadXmlCasi" -->
+        <!-- android:exported="false" /> -->
+        <activity
             android:name=".ReadJson"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ReadXMLFile"
+            android:name=".ReadJsonDSSV"
             android:exported="false" />
         <activity
             android:name=".ReadTxtFile"
             android:exported="false" />
         <activity
-            android:name=".ReadJsonDSSV"
+            android:name=".ReadJsonCS"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
