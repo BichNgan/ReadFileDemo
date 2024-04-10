@@ -75,7 +75,6 @@ public class ReadJsonCS extends AppCompatActivity {
             String st = ht +"--" + qg + "--" +loai;
             arrayListCS.add(st);
         }
-
         return arrayListCS;
     }
 }
